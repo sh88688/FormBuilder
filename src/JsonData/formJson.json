@@ -1,0 +1,89 @@
+{
+  "ticket_status": {
+    "elementType": "input",
+    "elementConfig": {
+      "type": "text",
+      "label": "Ticket Status *",
+      "placeholder": "Enter Status",
+      "defaultValue": "",
+      "helperText": "",
+      "variant": "outlined",
+      "margin": "dense"
+    },
+    "inputAdornment": {
+      "endAdornment": {
+        "position": "end",
+        "value": "?",
+        "helptooltip": "Ticket Status  Hii Miss status you can fill here."
+      }
+    },
+    "value": "",
+    "validation": {
+      "required": true
+    },
+    "valid": false,
+    "touched": false
+  },
+  "ticket_status_acronym": {
+    "elementType": "input",
+    "elementConfig": {
+      "type": "text",
+      "helperText": "",
+      "label": "Ticket Status Acronym",
+      "variant": "outlined",
+      "placeholder": "Enter Status Acronym",
+      "margin": "dense"
+    },
+    "inputAdornment": {
+      "endAdornment": {
+        "position": "end",
+        "value": "!",
+        "helptooltip": "Acronym You have to fill the Acronym for the ticket."
+      }
+    },
+    "value": "",
+    "validation": {
+      "required": false
+    },
+    "valid": false,
+    "touched": false
+  },
+  "description": {
+    "elementType": "textarea",
+    "elementConfig": {
+      "type": "text",
+      "label": "Description",
+      "helperText": "",
+      "variant": "outlined",
+      "margin": "dense"
+    },
+    "value": "",
+    "validation": {
+      "required": false
+    },
+    "valid": false,
+    "touched": false
+  },
+  "status_color": {
+    "elementType": "input",
+    "elementConfig": {
+      "type": "color",
+      "label": "Status Color",
+      "helperText": "",
+      "variant": "outlined",
+      "margin": "normal"
+    },
+    "inputAdornment": {
+      "endAdornment": {
+        "position": "end",
+        "value": "#"
+      }
+    },
+    "value": "",
+    "validation": {
+      "required": true
+    },
+    "valid": false,
+    "touched": false
+  }
+}
